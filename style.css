@@ -1,0 +1,65 @@
+html {
+  background: #262626;
+}
+
+.main {
+  box-sizing: content-box;
+  height: 400px;
+  width: 400px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 150px;
+  background: white;
+  text-align: center;
+  color: black;
+  border: 5px solid gray;
+  border-radius: 5px;
+}
+.icon {
+  padding: 5px;
+}
+.name {
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.student {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.info {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.social {
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  border-radius: 10px;
+}
+a:hover {
+  color: purple;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.hr {
+    height: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    width: 100%;
+    opacity: 0.5;
+}
