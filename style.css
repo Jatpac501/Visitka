@@ -1,19 +1,20 @@
-html {
-  background: #262626;
+body {
+	background: #f0f0f3;
+	widows: 100vw;
+	height: 100vh;	
 }
-
 .main {
-  box-sizing: content-box;
-  height: 400px;
-  width: 400px;
-  padding: 10px;
-  margin: auto;
-  margin-top: 150px;
-  background: white;
-  text-align: center;
-  color: black;
-  border: 5px solid gray;
-  border-radius: 5px;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	color: black;
+	border-radius: 50px;
+	background-color: #f0f0f3;
+	box-shadow: 10px 10px 21px #d3d3d6, -10px -10px 21px #fff;
 }
 .icon {
   padding: 5px;
@@ -53,9 +54,9 @@ a {
   border-radius: 10px;
 }
 a:hover {
-  color: purple;
-  border: 1px solid;
-  border-radius: 20px;
+	color: #00FFF3;
+border: 1px solid;
+	border-radius: 20px;
 }
 .hr {
     height: 5px;
