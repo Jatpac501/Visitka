@@ -1,19 +1,18 @@
 body {
 	background: #f0f0f3;
-	widows: 100vw;
 	height: 100vh;	
 }
 .main {
 	position: absolute;
 	top: 5%;
 	left: 50%;
-	transform: translate(-50%, 50%);
-	height: 400px;
+	transform: translate(-50%, 20%);
+	height: 550px;
 	width: 400px;
 	text-align: center;
 	color: black;
 	border-radius: 50px;
-	background-color: #f0f0f3;
+	background: linear-gradient(130deg, #fff, #d3d3d6);
 	box-shadow: 10px 10px 21px #d3d3d6, -10px -10px 21px #fff;
 }
 .icon {
@@ -24,7 +23,7 @@ body {
   font-family: 'Montserrat';
   font-size: 2em;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 .student {
   font-family: 'Montserrat';
@@ -55,16 +54,44 @@ a {
 }
 a:hover {
 	color: #00FFF3;
-border: 1px solid;
+	border: 1px solid;
 	border-radius: 20px;
 }
 .hr {
-    height: 5px;
-    border-radius: 10px;
-    background-color: gray;
-    opacity: 0.5;
-    box-shadow: gray;
+	margin: auto;
+	width: 80%;
+	height: 3px;
+	border-radius: 20px;
+	background-color: gray;
+	opacity: 0.3;
+}
+.hrtop {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80%;
+	height: 3px;
+	border-radius: 20px;
+	background-color: gray;
+	opacity: 0.3;
 }
 img {
 	height: 100px;
+}
+.info-tel, .info-mail {
+	border: 0px;
+}
+.info-tel:hover, .info-mail:hover {
+	color: #00FFF3;
+	border: 0px;
+}
+.learn {
+	padding: 0px;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+li {
+	line-height: 1.5;
 }
