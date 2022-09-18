@@ -12,6 +12,8 @@ body {
 	background: #DCDCC6;
 }
 .main {
+  color: #494942;
+  user-select: none;
 	position: relative;
 	height: 570px;
 	width: 400px;
@@ -46,7 +48,7 @@ body {
   letter-spacing: 0px;
 }
 .button {
-  color: #000;
+  color: #494942;
   text-decoration: none;
 }
 .button:hover {
@@ -66,6 +68,7 @@ body {
   list-style-type: none;
 }
 .main .social .soc li a {
+  color: #494942;
   position: relative;
   width: 45px;
   height: 45px;
