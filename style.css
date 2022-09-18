@@ -9,26 +9,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-	background: #eaf6ff;
+	background: #DCDCC6;
 }
 .main {
 	position: relative;
 	height: 570px;
 	width: 400px;
 	text-align: center;
-	border-radius: 60px;
+	border-radius: 50px;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.25);
-  box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.25),
-              -10px -10px 30px rgba(0, 0, 0, 0.1);
+  background: #f5f5dc;
+  box-shadow:  -20px 20px 60px #939384,
+             20px -20px 60px #F5F5DC;
 }
 .main .hr {
+  opacity: .5;
 	margin: auto;
 	width: 80%;
 	height: 3px;
 	border-radius: 20px;
-	background: #00FFF3;
-  box-shadow: inset 0px 0px 18px #00FFF3, 0px 0px 18px #00FFF3;
+	background: #494942;
+  box-shadow: 0px 0px 8px #494942;
 }
 .main .icon img {
   margin-top: 20px;
@@ -50,7 +51,7 @@ body {
 }
 .button:hover {
   text-decoration: none;
-  color: #00FFF3;
+  color: #83322c;
 }
 .main .social {
   padding: 0px;
@@ -71,7 +72,7 @@ body {
   margin: 0 8px;
   display: grid;
   text-decoration: none;
-  background: #fff;
+  background: #C4C4B0;
   font-size: 50px;
 }
 .main .learn {
@@ -89,7 +90,7 @@ body {
   width: 400px;
   top: -50%;
   left: -50%;
-  background: linear-gradient(0deg, transparent, #00FFF3, #00FFF3);
+  background: linear-gradient(0deg, transparent, #5c8499, #5c8499);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -103,7 +104,7 @@ body {
   width: 400px;
   top: -50%;
   left: -50%;
-  background: linear-gradient(0deg, transparent, #00FFF3, #00FFF3);
+  background: linear-gradient(0deg, transparent, #83322c, #83322c);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -121,15 +122,17 @@ body {
 }
 .main .box {
   position: absolute;
-  inset: 2px;
-  border-radius: 60px;
-  background: #fff;
+  inset: 5px;
+  border-radius: 50px;
+  background: #C4C4B0;
   z-index: 10;
-  box-shadow: inset -5px -5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: inset -10px 10px 30px #939384,
+               inset 10px -10px 30px #F5F5DC;
 }
 .main .nick {
-  filter: blur(6px);
-  opacity: .5;
+  color: #494942;
+  filter: blur(4px);
+  opacity: .6;
   top: 15px;
   left: 70%;
   position: absolute;
