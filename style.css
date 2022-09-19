@@ -36,7 +36,17 @@ body {
 .main .icon img {
   margin-top: 20px;
   height: 100px;
-
+}
+.main .icon img:hover{
+  animation: flip 3s linear infinite;
+}
+@keyframes flip {
+	0% {
+    transform: rotate3d(0, 1, 0, 0deg);
+	}
+	100% {
+		transform: rotate3d(0, 1, 0, 360deg);
+	}
 }
 .main .title {
   font-size: 1em;
@@ -47,27 +57,27 @@ body {
   font-weight: 400;
   letter-spacing: 0px;
 }
-.button {
+.main .box .button {
   color: #494942;
   text-decoration: none;
 }
-.button:hover {
+.main .box .button:hover {
+  animation: flip 5s linear infinite;
   text-decoration: none;
   color: #83322c;
 }
-.main .social {
-  padding: 0px;
+.main .box .social {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0px;
 }
-.main .social .soc {
+.main .box .social .soc {
   position: relative;
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
-.main .social .soc li a {
+.main .box .social .soc li a {
   color: #494942;
   position: relative;
   width: 45px;
@@ -78,7 +88,7 @@ body {
   background: #C4C4B0;
   font-size: 50px;
 }
-.main .learn {
+.main .box .learn {
 	padding: 0px;
 	font-size: 20px;
 	font-weight: 400;
@@ -132,7 +142,7 @@ body {
   box-shadow: inset -10px 10px 30px #939384,
                inset 10px -10px 30px #F5F5DC;
 }
-.main .nick {
+.main .box .nick {
   color: #494942;
   filter: blur(4px);
   opacity: .6;
@@ -142,4 +152,19 @@ body {
   font-weight: bold;
   font-size: 100px;
   writing-mode: vertical-rl;
+  animation: nick 10s linear infinite;
   }
+@keyframes nick {
+  0% {
+    transform: translateX(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+    transform: translateY(-10px);
+  }
+}
