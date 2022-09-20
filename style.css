@@ -36,16 +36,17 @@ body {
 .main .icon img {
   margin-top: 20px;
   height: 100px;
+  animation: button 3s linear infinite;
 }
-.main .icon img:hover{
-  animation: flip 3s linear infinite;
-}
-@keyframes flip {
+@keyframes button {
 	0% {
-    transform: rotate3d(0, 1, 0, 0deg);
+    transform: scale(100%);
 	}
-	100% {
-		transform: rotate3d(0, 1, 0, 360deg);
+	50% {
+		transform: scale(105%);
+	}
+  100% {
+    transform: scale(100%);
 	}
 }
 .main .title {
@@ -62,7 +63,7 @@ body {
   text-decoration: none;
 }
 .main .box .button:hover {
-  animation: flip 5s linear infinite;
+  animation: button 5s linear infinite;
   text-decoration: none;
   color: #83322c;
 }
